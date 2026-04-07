@@ -1,29 +1,35 @@
-<!DOCTYPE html>
-<html>
-<head>
-<title>FoodShare</title>
-<link rel="stylesheet" href="style.css">
-</head>
+<section id="donate">
+<h2>Donate Food</h2>
+<form>
+<input type="text" placeholder="Food Name">
+<input type="number" placeholder="Quantity">
+<input type="text" placeholder="Location">
+<input type="time">
+<button type="submit">Submit Donation</button>
+</form>
+</section>
 
-<body>
+<!-- Request Food Section -->
+<section id="request">
+<h2>Request Food</h2>
+<form>
+<input type="text" placeholder="Name">
+<input type="text" placeholder="Organization">
+<input type="text" placeholder="Food Needed">
+<input type="text" placeholder="Location">
+<button type="submit">Send Request</button>
+</form>
+</section>
 
-<h1>FoodShare - Food Donation</h1>
+<!-- Available Food Section -->
+<section id="available">
+<h2>Available Food Donations</h2>
 
-<div class="form">
-<h2>Add Food Donation</h2>
-
-<input type="text" id="food" placeholder="Food name"><br>
-<input type="text" id="quantity" placeholder="Quantity"><br>
-<input type="text" id="location" placeholder="Location"><br>
-
-<button onclick="addDonation()">Add Donation</button>
-
+<div>
+<h3>Rice & Curry</h3>
+<p>Quantity: 20 plates</p>
+<p>Location: Bangalore</p>
+<button>Request Pickup</button>
 </div>
 
-<h2>Available Donations</h2>
-<ul id="donationList"></ul>
-
-<script src="script.js"></script>
-
-</body>
-</html>
+</section>
